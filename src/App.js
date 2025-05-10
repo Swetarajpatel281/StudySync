@@ -28,6 +28,7 @@ import CourseDetails from "./pages/CourseDetails";
 import ViewCourse from "./pages/ViewCourse";
 import VideoDetails from "./components/core/ViewCourse/VideoDetails";
 import Instructor from "./components/core/Dashboard/InstructorDashboard/Instructor";
+import CourseCompletionPage from "./pages/CompletionPage";
 
 function App() {
 
@@ -98,7 +99,7 @@ function App() {
           }
         />
     <Route path="/contact" element={<Contact />} />
-
+    
     <Route 
       element={
         <PrivateRoute>
@@ -107,6 +108,8 @@ function App() {
       }
     >
       <Route path="dashboard/my-profile" element={<MyProfile />} />
+      <Route path="/dashboard/my-learning" element={<CourseCompletionPage />} />
+
       
       <Route path="dashboard/Settings" element={<Settings />} />
       
