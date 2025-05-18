@@ -16,12 +16,12 @@ import Footer from "../components/common/Footer"
 const About = () => {
   return (
     <div>
-      <section className="bg-richblack-700">
-        <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-center text-white">
+      <section className="bg-richblack-100">
+        <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-center text-slate-600">
           <header className="mx-auto py-20 text-4xl font-semibold lg:w-[70%]">
             Driving Innovation in Online Education for a
             <HighlightText text={"Brighter Future"} />
-            <p className="mx-auto mt-3 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
+            <p className="mx-auto mt-3 text-center text-base font-medium text-slate-600 lg:w-[95%]">
               StudySync is at the forefront of driving innovation in online
               education. We're passionate about creating a brighter future by
               offering cutting-edge courses, leveraging emerging technologies,
@@ -38,7 +38,7 @@ const About = () => {
       </section>
 
       <section className="border-b border-richblack-700">
-        <div className="mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-richblack-500">
+        <div className="mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-richblack-200">
           <div className="h-[100px] "></div>
           <Quote />
         </div>
